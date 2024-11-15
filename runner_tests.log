@@ -1,0 +1,8 @@
+2024-11-15 07:19:26,961 | WARNING | Неверный тип данных для имени объекта Runner
+Traceback (most recent call last):
+  File "C:\ProjectPhyton\obychenie\1YstanovkaSrediRazrabotki\tests_12_4.py", line 21, in test_run
+    some_runner = rt_with_exceptions.Runner(2281337)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProjectPhyton\obychenie\1YstanovkaSrediRazrabotki\rt_with_exceptions.py", line 6, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
